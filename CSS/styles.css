@@ -7,7 +7,8 @@
   /* flex-direction: column; */
 }
 
-.container-1 div {
+.container-1 div,
+.container-2 div {
   border: 1px #ccc solid;
   padding: 10px;
 }
@@ -27,8 +28,15 @@
   order: 3;
 }
 
-.container-2 {
+.container-2-box {
+  flex-basis: 27%;
 }
 
-.container-2-box {
+.container-2 {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
 }
