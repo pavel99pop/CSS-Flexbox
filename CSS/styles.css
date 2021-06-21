@@ -1,10 +1,21 @@
-.container-1 {
-  display: flex;
-  /* align-items: flex-start; */
-  /* align-items: flex-end; */
-  /* align-items: center; */
-  /* align-items: stretch; */
-  /* flex-direction: column; */
+@media (min-width: 720px) {
+  .container-1 {
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* flex-direction: column; */
+  }
+
+  .container-2 {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+  }
 }
 
 .container-1 div,
@@ -30,13 +41,4 @@
 
 .container-2-box {
   flex-basis: 27%;
-}
-
-.container-2 {
-  display: flex;
-  /* justify-content: flex-start; */
-  /* justify-content: flex-end; */
-  /* justify-content: center; */
-  /* justify-content: space-between; */
-  /* justify-content: space-around; */
 }
